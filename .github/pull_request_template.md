@@ -1,15 +1,17 @@
 ## 📌 Ringkasan Perubahan
 <!-- Jelaskan secara singkat perubahan apa saja yang dibuat dalam Pull Request ini -->
 
-## 📂 Kategori Berkas
-- [ ] Fondasi & Literasi (`01-fondasi-dan-literasi/`)
-- [ ] Jalur Belajar / Roadmap (`02-jalur-belajar-roadmap/`)
-- [ ] Buku & Referensi (`03-buku-dan-referensi/`)
-- [ ] Katalog Tools Open Source (`04-katalog-tools-open-source/`)
-- [ ] Lab & Platform Latihan (`05-lab-dan-tempat-latihan/`)
-- [ ] Sertifikasi & Karier (`06-sertifikasi-dan-karier/`)
-- [ ] Cheatsheets (`07-cheatsheets-dan-payload/`)
-- [ ] Dokumentasi Utama / Meta (README, Panduan, dll)
+## 📂 Domain / Kategori Berkas
+- [ ] 00. Panduan & Orientasi (`00-panduan-dan-orientasi/`)
+- [ ] 01. Fondasi Teknis & Literasi (`01-fondasi-teknis-dan-literasi/`)
+- [ ] 02. Offensive Security (`02-offensive-security/`)
+- [ ] 03. Defensive Security (`03-defensive-security/`)
+- [ ] 04. Forensik Digital & Insiden (`04-forensik-digital-dan-insiden/`)
+- [ ] 05. Keamanan Cloud & DevSecOps (`05-keamanan-cloud-dan-devsecops/`)
+- [ ] 06. Tata Kelola GRC & Audit (`06-tata-kelola-grc-dan-audit/`)
+- [ ] 07. Ekosistem Karier & Komunitas (`07-ekosistem-karier-dan-komunitas/`)
+- [ ] 08. Cheatsheets & Playbooks (`08-cheatsheets-dan-playbooks/`)
+- [ ] Dokumentasi Utama / Root (README, Panduan, dll)
 
 ## 📋 Daftar Periksa Kontribusi (Checklist)
 - [ ] Tautan yang ditambahkan adalah tautan **resmi, legal, dan bebas materi bajakan**.

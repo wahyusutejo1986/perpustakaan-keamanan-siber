@@ -2,77 +2,82 @@
 
 # 📚 Perpustakaan Keamanan Siber Indonesia
 
-**Pusat Pengetahuan, Panduan, dan Kurasi Sumber Daya Keamanan Siber Terlengkap Berbahasa Indonesia.**  
-*Dapat dipelajari dan dimanfaatkan oleh semua kalangan — dari dasar (pemula) hingga profesional.*
+**Pusat Pengetahuan, Panduan Praktik, dan Kurasi Sumber Daya Keamanan Siber Terlengkap Berbasis Domain Industri.**  
+*Dirancang secara modular dan terbuka untuk seluruh masyarakat Indonesia — dari pemula hingga profesional.*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Bahasa: Indonesia](https://img.shields.io/badge/Bahasa-Indonesia-red.svg?style=flat-square)](README.md)
-[![Status: Aktif](https://img.shields.io/badge/Status-Dalam%20Pengembangan%20Aktif-blue.svg?style=flat-square)](#)
+[![Standar: Domain Industri](https://img.shields.io/badge/Standar-NIST%20%7C%20SKKNI%20BNSP-blue.svg?style=flat-square)](#)
 
-[Jelajahi Modul](#-daftar-isi-koleksi) • [Mulai dari Nol](#-baru-di-dunia-siber-mulai-dari-sini) • [Panduan Kontribusi](CONTRIBUTING.md) • [Penafian Etika](DISCLAIMER.md)
+[Jelajahi Domain](#-direktori-domain-keamanan-siber) • [Panduan Orientasi](00-panduan-dan-orientasi/cara-menggunakan-repo.md) • [Glosarium Istilah](00-panduan-dan-orientasi/glosarium-istilah-siber.md) • [Kontribusi](CONTRIBUTING.md) • [Penafian Hukum](DISCLAIMER.md)
 
 </div>
 
 ---
 
-## 🎯 Visi & Tujuan Repositori
+## 🎯 Visi & Misi Repositori
 
-Dunia keamanan siber berkembang sangat cepat, namun sumber belajar komprehensif yang tersusun rapi dalam **Bahasa Indonesia** masih tersebar di berbagai tempat. 
+Dunia keamanan siber terus berkembang dengan pesat. Repositori ini mengadopsi standar taksonomi industri (mengacu pada prinsip kerja **NIST NICE Framework** dan **SKKNI Bidang Keamanan Siber di Indonesia**) dengan membagi materi ke dalam **Domain Keahlian Terpadu**.
 
-Proyek **Perpustakaan Keamanan Siber** ini dibangun dengan tujuan:
-1. 🇮🇩 **Akses Inklusif**: Memberikan akses literasi dan pengetahuan siber bagi seluruh masyarakat Indonesia tanpa kendala bahasa.
-2. 🪜 **Alur Terstruktur**: Menyediakan jalur belajar terarah (*learning roadmap*), baik untuk jalur bertahan (*Blue Team*), pengujian sistem (*Red Team*), maupun tata kelola (*GRC*).
-3. 🛠️ **Kurasi Kualitas**: Menghadirkan referensi buku legal, alat bantu sumber terbuka (*open source*), lingkungan latihan (*labs*), dan materi sertifikasi yang teruji.
-
----
-
-## 🔰 Baru di Dunia Siber? Mulai dari Sini!
-
-Jika Anda baru pertama kali ingin mempelajari keamanan siber, ikuti alur bertahap berikut:
-
-1. **Pahami Literasi & Privasi Dasar**: Pelajari [Cyber Hygiene & Keamanan Akun](01-fondasi-dan-literasi/cyber-hygiene-dan-privasi.md).
-2. **Pahami Payung Hukum**: Baca [Hukum & Regulasi Siber di Indonesia (UU ITE & UU PDP)](01-fondasi-dan-literasi/hukum-dan-regulasi-id.md).
-3. **Pilih Jalur Peminatan Anda**:
-   - Tertarik bertahan, mendeteksi serangan, dan analisis forensik? 👉 [Roadmap Blue Team](02-jalur-belajar-roadmap/roadmap-blue-team.md)
-   - Tertarik mencari celah keamanan dan penetration testing? 👉 [Roadmap Red Team](02-jalur-belajar-roadmap/roadmap-red-team.md)
-4. **Mulai Praktik di Lab Legal**: Kunjungi [Platform Latihan Gratis](05-lab-dan-tempat-latihan/platform-latihan-online.md).
+Setiap domain merupakan **"Pojok Belajar Mandiri"** yang langsung memadukan:
+- 🗺️ **Roadmap**: Alur belajar terarah dari Level 1 (Dasar) hingga Level 4 (Mahir).
+- 🛠️ **Katalog Tools**: Alat bantu *open-source* pilihan yang relevan dengan domain tersebut.
+- 📐 **Standar & Metodologi**: Panduan industri resmi (NIST, MITRE ATT&CK, OWASP, ISO 27001).
+- 🧪 **Laboratorium & Praktik**: Tempat latihan aman, aplikasi rentan (*vulnerable apps*), dan konfigurasi pengerasan sistem (*hardening*).
 
 ---
 
-## 📂 Daftar Isi Koleksi
+## 🧭 Baru Memulai? Ikuti Jalur Ini!
 
-Berikut adalah direktori modul yang tersedia dalam perpustakaan ini:
+Jika Anda baru pertama kali terjun ke dunia keamanan siber, ikuti alur bertahap berikut:
+1. **Pahami Cara Menggunakan Repo**: Baca [00. Panduan & Orientasi](00-panduan-dan-orientasi/cara-menggunakan-repo.md).
+2. **Kuasai Literasi & Payung Hukum**:
+   - [Panduan Cyber Hygiene Masyarakat](01-fondasi-teknis-dan-literasi/cyber-hygiene-masyarakat.md)
+   - [Etika & Regulasi Siber Indonesia (UU PDP & UU ITE)](00-panduan-dan-orientasi/etika-dan-hukum-id.md)
+3. **Bangun Fondasi Teknis**:
+   - [Dasar Jaringan Komputer](01-fondasi-teknis-dan-literasi/dasar-jaringan-komputer.md)
+   - [Dasar Sistem Operasi Linux & Windows](01-fondasi-teknis-dan-literasi/dasar-sistem-operasi.md)
+   - [Pemrograman untuk Otomasi Siber](01-fondasi-teknis-dan-literasi/pemrograman-untuk-siber.md)
+4. **Pilih Spesialisasi Domain** sesuai minat karier Anda pada tabel di bawah.
 
-| No | Kategori Modul | Deskripsi | Tautan Berkas |
+---
+
+## 📂 Direktori Domain Keamanan Siber
+
+| Domain | Bidang Keahlian | Deskripsi Singkat | Tautan Modul |
 | :---: | :--- | :--- | :---: |
-| **01** | **Fondasi & Literasi** | Konsep dasar internet, keamanan akun, perlindungan data pribadi, dan hukum siber RI. | [Buka Modul](01-fondasi-dan-literasi/cyber-hygiene-dan-privasi.md) |
-| **02** | **Jalur Belajar (Roadmap)** | Panduan langkah demi langkah untuk Blue Team, Red Team, Forensik, dan DevSecOps. | [Buka Modul](02-jalur-belajar-roadmap/roadmap-blue-team.md) |
-| **03** | **Buku & Referensi** | Kumpulan e-book legal, jurnal, serta framework standar industri (NIST, MITRE, CIS). | [Buka Modul](03-buku-dan-referensi/buku-gratis-dan-open-source.md) |
-| **04** | **Katalog Tools Open Source** | Alat bantu audit dan riset keamanan sumber terbuka (OSINT, Web, Jaringan, Forensik). | [Buka Modul](04-katalog-tools-open-source/web-application-security.md) |
-| **05** | **Lab & Tempat Latihan** | Rekomendasi platform latihan legal (TryHackMe, PortSwigger, CTF) dan panduan *home lab*. | [Buka Modul](05-lab-dan-tempat-latihan/platform-latihan-online.md) |
-| **06** | **Sertifikasi & Karier** | Panduan sertifikasi global & SKKNI BNSP, tips wawancara kerja, dan komunitas siber. | [Buka Modul](06-sertifikasi-dan-karier/panduan-sertifikasi.md) |
-| **07** | **Cheatsheets & Referensi** | Contekan perintah cepat Linux, Nmap, payload, dan skrip otomasi. | [Buka Modul](07-cheatsheets-dan-payload/nmap-cheatsheet.md) |
+| **00** | **Panduan & Orientasi** | Panduan navigasi, kamus istilah (*glosarium*), dan etika riset siber bertanggung jawab di Indonesia. | [Buka Modul](00-panduan-dan-orientasi/cara-menggunakan-repo.md) |
+| **01** | **Fondasi Teknis & Literasi** | Cyber hygiene masyarakat umum, dasar jaringan (OSI & TCP/IP), sistem operasi, dan scripting Python/Bash. | [Buka Modul](01-fondasi-teknis-dan-literasi/cyber-hygiene-masyarakat.md) |
+| **02** | **Offensive Security** | Red Team, Penetration Testing, Bug Bounty, OWASP WSTG, Active Directory attack, dan C2 frameworks. | [Buka Modul](02-offensive-security/roadmap-offensive.md) |
+| **03** | **Defensive Security** | Blue Team, Security Operations Center (SOC), SIEM (Wazuh/Elastic), MITRE ATT&CK, Sigma Rules, YARA. | [Buka Modul](03-defensive-security/roadmap-defensive.md) |
+| **04** | **Forensik Digital & Insiden (DFIR)** | Penanganan insiden (NIST SP 800-61), analisis bukti memori RAM (Volatility), disk forensik, dan malware reverse engineering. | [Buka Modul](04-forensik-digital-dan-insiden/roadmap-dfir.md) |
+| **05** | **Cloud & DevSecOps** | Keamanan aplikasi (SAST/DAST/SCA), pengerasan Docker & Kubernetes, CI/CD security pipeline, dan cloud security (AWS/GCP/Azure). | [Buka Modul](05-keamanan-cloud-dan-devsecops/roadmap-cloud-dan-devsecops.md) |
+| **06** | **Tata Kelola GRC & Audit** | Governance, Risk, & Compliance, audit sistem informasi, implementasi ISO/IEC 27001:2022, dan kepatuhan UU PDP No. 27/2022. | [Buka Modul](06-tata-kelola-grc-dan-audit/roadmap-grc-dan-auditor.md) |
+| **07** | **Ekosistem Karier & Komunitas** | Matriks sertifikasi global vs SKKNI BNSP, direktori komunitas siber di Indonesia, dan tips portofolio / wawancara kerja. | [Buka Modul](07-ekosistem-karier-dan-komunitas/peta-sertifikasi-global-skkni.md) |
+| **08** | **Cheatsheets & Playbooks** | Contekan perintah cepat Linux, Nmap network scanning, dan playbook tanggap darurat saat ransomware atau defacement. | [Buka Modul](08-cheatsheets-dan-playbooks/incident-response-playbook.md) |
 
 ---
 
 ## 🤝 Mari Berkontribusi!
 
-Repositori ini adalah proyek terbuka milik bersama. Anda dapat membantu dengan cara:
-- 💡 Mengusulkan tools atau materi baru melalui [Issue Template](https://github.com/wahyusutejo1986/perpustakaan-keamanan-siber/issues/new/choose).
-- 🔗 Melaporkan tautan yang rusak atau tidak aktif.
-- ✍️ Mengirimkan **Pull Request (PR)** dengan materi atau terjemahan baru sesuai [Panduan Kontribusi (CONTRIBUTING.md)](CONTRIBUTING.md).
+Repositori ini adalah proyek terbuka milik bersama untuk memajukan ekosistem keamanan siber Indonesia. Anda dapat berkontribusi dengan cara:
+- 💡 Mengusulkan tools atau referensi baru via [GitHub Issue Template](https://github.com/wahyusutejo1986/perpustakaan-keamanan-siber/issues/new/choose).
+- 🔗 Melaporkan tautan mati (*broken link*).
+- ✍️ Mengirimkan **Pull Request (PR)** materi baru sesuai panduan di [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## ⚖️ Penafian & Etika (Disclaimer)
+## ⚖️ Penafian Hukum & Etika (Disclaimer)
 
-Seluruh konten, materi, dan alat yang dirujuk di repositori ini ditujukan khusus untuk keperluan **edukasi, riset etis, dan pertahanan sistem informasi**. Pengujian tanpa izin resmi pada sistem milik pihak lain adalah tindakan ilegal di bawah ketentuan hukum Republik Indonesia (UU ITE & UU PDP).
+Seluruh materi, dokumentasi, dan perangkat lunak yang dirujuk dalam repositori ini ditujukan semata-mata untuk **tujuan edukasi, riset etis, dan penguatan pertahanan sistem informasi**. 
+
+Pengujian tanpa izin eksplisit dan sah dari pemilik sistem adalah tindakan ilegal di bawah ketentuan hukum Republik Indonesia (**UU ITE & UU PDP**). Pengelola dan kontributor tidak bertanggung jawab atas segala bentuk penyalahgunaan materi.
 
 Silakan baca selengkapnya di [DISCLAIMER.md](DISCLAIMER.md).
 
 ---
 
 <div align="center">
-  <sub>Dikelola dan dikurasi dengan semangat keterbukaan untuk komunitas keamanan siber Indonesia 🇮🇩</sub>
+  <sub>Dikelola dan dikurasi secara terbuka untuk kemajuan literasi dan talenta keamanan siber Indonesia 🇮🇩</sub>
 </div>
