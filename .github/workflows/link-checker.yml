@@ -1,0 +1,42 @@
+name: Link Checker
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    # Berjalan secara berkala setiap Senin pukul 07:00 WIB (00:00 UTC)
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Jalankan Lychee Link Checker
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-mail
+            --exclude-loopback
+            --exclude "(https://wahyusutejo1986.github.io/perpustakaan-keamanan-siber/|file:///)"
+            "**/*.md"
+          fail: false
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Buat Issue Jika Ada Link Rusak (Khusus Eksekusi Terjadwal)
+        if: steps.lychee.outputs.exit_code != 0 && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "🚨 Laporan Rutin: Ditemukan Tautan Rusak (Broken Links)"
+          content-filepath: ./lychee/out.md
+          labels: "tautan-mati, automated-issue"

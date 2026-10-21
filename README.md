@@ -1,16 +1,17 @@
 <div align="center">
 
-# 📚 Perpustakaan Keamanan Siber Indonesia
+<img src="assets/banner.svg" alt="Banner Perpustakaan Keamanan Siber Indonesia" width="100%" />
 
-**Pusat Pengetahuan, Panduan Praktik, dan Kurasi Sumber Daya Keamanan Siber Terlengkap Berbasis Domain Industri.**  
-*Dirancang secara modular dan terbuka untuk seluruh masyarakat Indonesia — dari pemula hingga profesional.*
+<br/><br/>
+
+[![Website: Docsify](https://img.shields.io/badge/Website-Buka%20Dokumentasi%20Web-0284c7?style=for-the-badge&logo=googledocs&logoColor=white)](https://wahyusutejo1986.github.io/perpustakaan-keamanan-siber/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Bahasa: Indonesia](https://img.shields.io/badge/Bahasa-Indonesia-red.svg?style=flat-square)](README.md)
 [![Standar: Domain Industri](https://img.shields.io/badge/Standar-NIST%20%7C%20SKKNI%20BNSP-blue.svg?style=flat-square)](#)
 
-[Jelajahi Domain](#-direktori-domain-keamanan-siber) • [Panduan Orientasi](00-panduan-dan-orientasi/cara-menggunakan-repo.md) • [Glosarium Istilah](00-panduan-dan-orientasi/glosarium-istilah-siber.md) • [Kontribusi](CONTRIBUTING.md) • [Penafian Hukum](DISCLAIMER.md)
+[🌐 Buka Versi Website](https://wahyusutejo1986.github.io/perpustakaan-keamanan-siber/) • [Jelajahi Domain](#-direktori-domain-keamanan-siber) • [Panduan Orientasi](00-panduan-dan-orientasi/cara-menggunakan-repo.md) • [Glosarium Istilah](00-panduan-dan-orientasi/glosarium-istilah-siber.md) • [Kontribusi](CONTRIBUTING.md) • [Penafian Hukum](DISCLAIMER.md)
 
 </div>
 
